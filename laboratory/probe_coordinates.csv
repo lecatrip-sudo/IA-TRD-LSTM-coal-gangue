@@ -1,0 +1,29 @@
+component,measurement_channel,sensor_id,measurement_type,measurement_unit,x_m,y_m,z_m,vertical_reference,spatial_role,mapping_evidence
+above_ground,1,T1,canopy_temperature,degC,0.585,0.614,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,2,T2,canopy_temperature,degC,1.330,0.615,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,3,T3,canopy_temperature,degC,1.659,0.614,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,4,T4,canopy_temperature,degC,2.404,0.614,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,5,T5,canopy_temperature,degC,0.585,0.999,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,6,T6,canopy_temperature,degC,1.329,0.998,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,7,T7,canopy_temperature,degC,1.659,0.998,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,8,T8,canopy_temperature,degC,2.403,0.999,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,9,T9,canopy_temperature,degC,0.585,1.382,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,10,T10,canopy_temperature,degC,1.330,1.381,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,11,T11,canopy_temperature,degC,1.659,1.383,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,12,T12,canopy_temperature,degC,2.403,1.382,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,13,T13,canopy_temperature,degC,0.584,1.766,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,14,T14,canopy_temperature,degC,1.330,1.766,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,15,T15,canopy_temperature,degC,1.659,1.765,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+above_ground,16,T16,canopy_temperature,degC,2.404,1.764,0.225,exposed_upper_surface_z0,canopy_grid,Marker centroid digitized from the scaled 3 m by 2 m color layout; z confirmed by user
+subsurface,17,T17,bed_surface_temperature,degC,0.615,0.612,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
+subsurface,18,T18,bed_surface_temperature,degC,1.338,0.612,0.000,exposed_upper_surface_z0,bed_surface_hotspot_near_heater,User confirmed T18 is a measurement point at z=0; marker centroid digitized from the scaled colour layout
+subsurface,19,T19,bed_surface_temperature,degC,1.674,0.613,0.000,exposed_upper_surface_z0,bed_surface_hotspot_near_heater,User confirmed T19 is a measurement point at z=0; marker centroid digitized from the scaled colour layout
+subsurface,20,T20,bed_surface_temperature,degC,2.414,0.617,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
+subsurface,21,T21,bed_surface_temperature,degC,0.614,0.998,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
+subsurface,22,T22,bed_surface_temperature,degC,1.339,0.998,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
+subsurface,23,T23,bed_surface_temperature,degC,1.676,0.996,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
+subsurface,24,T24,bed_surface_temperature,degC,2.413,0.998,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
+subsurface,25,T25,bed_surface_temperature,degC,1.339,1.384,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
+subsurface,26,T26,bed_surface_temperature,degC,1.672,1.384,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
+subsurface,27,T27,bed_surface_temperature,degC,1.343,1.772,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
+subsurface,28,T28,bed_surface_temperature,degC,1.675,1.765,0.000,exposed_upper_surface_z0,bed_surface_grid,Marker centroid digitized from the scaled 3 m by 2 m colour layout; elevation z=0 confirmed by user
