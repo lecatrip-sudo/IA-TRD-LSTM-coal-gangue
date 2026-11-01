@@ -1,0 +1,5 @@
+# The quick-start metric and reference tutorials require only Python >=3.11.
+# They use the standard library: no third-party dependencies to install.
+# Historical research dependencies are documented separately in
+# requirements_research_snapshot.txt; installing them does not recreate the
+# original workstation layout or provide restricted CFD source records.

@@ -1,0 +1,153 @@
+{
+ "mode": "archive",
+ "checks": [
+  {
+   "check": "T case-equal MAE agrees with released per-run summaries",
+   "pass": true,
+   "detail": "0.8372 vs 0.8372"
+  },
+  {
+   "check": "released per-run to method-summary MAE arithmetic",
+   "pass": true,
+   "detail": "16 methods; max error 0.000000 K"
+  },
+  {
+   "check": "18 per-run T metric records are present",
+   "pass": true,
+   "detail": "18 rows"
+  },
+  {
+   "check": "prediction-only T files are complete, target-free and match run metadata",
+   "pass": true,
+   "detail": "18/18 files"
+  },
+  {
+   "check": "exact signed bias identity agrees up to float32 forecast rounding",
+   "pass": true,
+   "detail": "0.00000036 K"
+  },
+  {
+   "check": "positive-increment approximation residual is finite",
+   "pass": true,
+   "detail": "0.0251 K (reported, not assumed zero)"
+  },
+  {
+   "check": "alpha sensitivity bracket 80mm",
+   "pass": true,
+   "detail": "selected 0.6961"
+  },
+  {
+   "check": "alpha sensitivity bracket 150mm",
+   "pass": true,
+   "detail": "selected 1.3418"
+  },
+  {
+   "check": "alpha sensitivity bracket 300mm",
+   "pass": true,
+   "detail": "selected 0.6036"
+  },
+  {
+   "check": "alpha sensitivity bracket 0.25kxl",
+   "pass": true,
+   "detail": "selected 0.5620"
+  },
+  {
+   "check": "alpha sensitivity bracket 0.5kxl",
+   "pass": true,
+   "detail": "selected 0.8705"
+  },
+  {
+   "check": "alpha sensitivity bracket 0.75kxl",
+   "pass": true,
+   "detail": "selected 0.9491"
+  },
+  {
+   "check": "arm-T regularizer share within [0,100]",
+   "pass": true,
+   "detail": "21.7-54.1%"
+  },
+  {
+   "check": "arm-T loss tables complete",
+   "pass": true,
+   "detail": "18 rows"
+  },
+  {
+   "check": "threshold assessment present",
+   "pass": true,
+   "detail": "222 rows"
+  },
+  {
+   "check": "T miss rate below persistence miss rate",
+   "pass": true,
+   "detail": "0.0068 < 0.0403"
+  },
+  {
+   "check": "bootstrap T interval brackets its point estimate",
+   "pass": true,
+   "detail": "[0.7941, 0.8802]"
+  },
+  {
+   "check": "CFD bootstrap estimand matches reported per-run MAE: Persistence",
+   "pass": true,
+   "detail": "4.8411 vs 4.8411"
+  },
+  {
+   "check": "CFD bootstrap estimand matches reported per-run MAE: Linear extrapolation",
+   "pass": true,
+   "detail": "1.7441 vs 1.7441"
+  },
+  {
+   "check": "CFD bootstrap estimand matches reported per-run MAE: Damped trend",
+   "pass": true,
+   "detail": "1.2000 vs 1.2000"
+  },
+  {
+   "check": "CFD bootstrap estimand matches reported per-run MAE: Own-history blend (R3)",
+   "pass": true,
+   "detail": "0.6785 vs 0.6785"
+  },
+  {
+   "check": "CFD bootstrap estimand matches reported per-run MAE: IA-TRD-LSTM (T)",
+   "pass": true,
+   "detail": "0.8372 vs 0.8372"
+  },
+  {
+   "check": "laboratory IA-TRD-LSTM (T) summary matches row-level rescoring",
+   "pass": true,
+   "detail": "0.506032 vs 0.506032"
+  },
+  {
+   "check": "laboratory Damped trend summary matches row-level rescoring",
+   "pass": true,
+   "detail": "0.350079 vs 0.350079"
+  },
+  {
+   "check": "reported laboratory failure against damped trend agrees with results",
+   "pass": true,
+   "detail": "0.5060 vs 0.3501"
+  },
+  {
+   "check": "laboratory bootstrap estimand matches per-run MAE: Damped trend",
+   "pass": true,
+   "detail": "0.3501 vs 0.3501"
+  },
+  {
+   "check": "laboratory bootstrap estimand matches per-run MAE: Own-history blend (R3)",
+   "pass": true,
+   "detail": "0.3757 vs 0.3757"
+  },
+  {
+   "check": "laboratory bootstrap estimand matches per-run MAE: IA-TRD-LSTM (T)",
+   "pass": true,
+   "detail": "0.5060 vs 0.5060"
+  },
+  {
+   "check": "laboratory bootstrap estimand matches per-run MAE: IA-TRD-LSTM Eq. (10) form (V98)",
+   "pass": true,
+   "detail": "0.3152 vs 0.3152"
+  }
+ ],
+ "failures": [],
+ "n_checks": 29,
+ "all_pass": true
+}

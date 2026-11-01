@@ -1,0 +1,13 @@
+{
+  "source_archive": "Zenodo_public_release_V101.zip",
+  "sha256": "ca3a8f9f63d2135d874b49017cb266d25169f2e9ece1476b05dc7d8595216cfa",
+  "original_file_count": 535,
+  "all_original_bytes_preserved": true,
+  "path_mapping": {
+    "README.md": "README_V101_original.md"
+  },
+  "other_paths_unchanged": true,
+  "repository_publication_performed": false,
+  "new_training_or_scientific_results": false,
+  "addition_scope": "English distribution documentation and two standard-library tutorials of existing formulas/released laboratory metrics"
+}

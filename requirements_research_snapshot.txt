@@ -1,0 +1,14 @@
+# Recorded research environment: Python 3.11.9, CPU float32.
+# This is an environment snapshot, not a complete dependency lock.
+# The retained research scripts need their documented original project layout.
+# No packages are required by code/examples/. The historical release verifier
+# imports NumPy and pandas and therefore requires those packages.
+numpy==2.4.2
+pandas==3.0.0
+torch==2.10.0
+# The original record specifies 3.10.x rather than an exact patch version.
+matplotlib>=3.10,<3.11
+# The recorded original torch build identifier is 2.10.0+cpu. Obtain a CPU
+# build appropriate to the platform from the official PyTorch distribution.
+# Local modules such as legacy_core/core/residual_core are source files,
+# not additional packages available for installation from a package index.
